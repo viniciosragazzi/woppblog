@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+a.active {
+  font-weight: bold;
+  color: #04d361;
+}
+
+.post {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px;
+
+}
+.comentario {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px;
+    border: 2px solid #006e3129;
+}
